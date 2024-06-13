@@ -112,11 +112,11 @@ function App() {
             onKeyDown={handleKeyPress}
             onChange={handlinginput}
             value={todo}
-            className="md:w-[600px] w-[90vw] px-4 py-1 mx-4 my-2 rounded  h-[6vh] outline-dotted"
+            className="outline-dotted md:w-[590px] w-[90vw] px-4 py-1 mx-4 my-3 rounded  h-[6vh] text-2xl"
           />
           <button
             onClick={handleadd}
-            className="bg-purple-500  rounded-md px-7 py-2 md:mx-3 hover:bg-slate-700 hover:text-white font-mono font-semibold md:w-auto w-[75vw] mx-9 my-2 outline-dashed"
+            className="outline-dashed bg-purple-500  rounded-md px-7 py-1 md:mx-3 hover:bg-slate-700 hover:text-white font-mono font-semibold md:w-auto w-[75vw] mx-12 my-2"
           >
             Save
           </button>
